@@ -1,0 +1,21 @@
+{
+"manifest_version": 2,
+    "name": "New Tab",
+    "version": "0.2",
+ "chrome_url_overrides": {
+
+     "newtab": "index.html"
+
+},
+
+    "description": "Расширения от Эстола",
+    "icons": {
+        "16": "Icon.png",
+        "32": "Icon.png",
+        "48": "Icon.png",
+       "128": "Icon.png"
+
+
+ }
+
+}
