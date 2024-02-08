@@ -1,0 +1,505 @@
+/* @media трансляторы для javascript */
+@media (min-width: 320px) {
+    head {
+        width: 320px;
+    }
+}
+@media (min-width: 480px) {
+    head {
+        width: 480px;
+    }
+}
+@media (min-width: 700px) {
+    head {
+        width: 700px;
+    }
+}
+
+.search{
+    position: relative;
+    top:400px;
+    left:647px;
+    align-content: center;
+
+
+}
+
+.text{
+font-size: 15px;
+font-family: Bauhaus 93;
+
+}
+
+.search input {
+  width: 610px;
+  height: 50px;
+  padding: 0px 25px 0px;
+  background: #5f819d;
+  font-family: Bauhaus 93;
+  color: black;
+  outline: none;
+  border:white;
+  position: relative;
+  display: block;
+   color:white;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+
+
+
+input[type="search"]::placeholder
+{
+color: white;
+
+}
+
+
+
+.dreieck1
+{   top:405px;
+    width: 0px;
+    height:0px;
+    border-top: 50px solid #5f819d;
+	border-left: 50px solid transparent;
+    text-align: center;
+    position: relative;
+    position: fixed;
+    left:615px;
+
+}
+
+.dreieck2
+{   	border: 50px solid transparent;
+        border-left: 50px solid #5f819d;
+        border-top: 0px solid #5f819d;
+        top:-3px;
+        position: absolute;
+        left:600px;
+}
+
+
+
+/*Background Buttons*/
+.Background_Buttons{
+position: absolute;
+width: 710px;
+height: 220px;
+background: #282a2e;
+top: 500px;
+left: 605px;
+
+animation: backbox 4s ease-out;
+border-bottom: 5px solid #5f819d;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+@keyframes backbox {
+    0%{ height: 0px;    }
+    1%{ height: 10px;   }
+    2%{ height: 20px;  }
+    3%{ height: 30px;  }
+    4%{ height: 40px;  }
+    5%{ height: 50px;  }
+    6%{ height: 60px;  }
+    7%{ height: 70px;  }
+    8%{ height: 80px;   }
+    9%{ height:  90px;  }
+    10%{ height: 100px; }
+    11%{ height: 110px; }
+    12%{ height: 120px;  }
+    13%{ height: 130px;  }
+    14%{ height: 140px; }
+    15%{ height: 150px;  }
+    16%{ height: 160px; }
+    17%{ height:170px; }
+    18%{ height:180px; }
+    19%{ height:190px; }
+    20%{ height:200px; }
+    21%{ height:210px; }
+    22%{ height:220px; }
+}
+
+
+/*  Youtube Button */
+
+.yt a{
+position: absolute;
+left:760px;
+top:510px;
+background: #de935f;
+width: 35px;
+height: 35px;
+padding: 20px 20px 20px;
+font-size:30px;
+font-family: trebuchet ms;
+color:white ;
+text-decoration: none;
+animation: box1 5s ease;
+transition: linear 0.2s ;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.yt a:hover{
+border-right: 2px solid  #a16134;
+border-bottom:  2px solid  #a16134;
+transition: linear 0.2s ;
+top:508px;
+left:758px;
+width: 33px;
+height: 33px;
+}
+
+/*ART websiteicon*/
+.ART a{
+position: absolute;
+left:865px;
+top:510px;
+background: #de935f;
+width: 51.5px;
+height: 35px;
+padding: 20px 12px 20px;
+font-size:30px;
+font-family: trebuchet ms;
+color:white;
+text-decoration: none;
+animation: box1 5s ease;
+transition: linear 0.2s ;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ART a:hover{
+border-right: 2px solid  #a16134;
+border-bottom:  2px solid  #a16134;
+transition: linear 0.2s ;
+top:508px;
+left:863px;
+width: 49.5px;
+height: 33px;
+}
+
+/* Gmail Icon  Design*/
+
+
+/* боксы под кнопкой Gmail*/
+.menu{position: absolute;
+left:939px;
+top:510px;
+transition: linear 0.2s ;
+
+}
+
+.menu:hover{
+position: absolute;
+left:937px;
+top:508px;
+
+
+}
+     ul {
+    width: 75px;
+    list-style: none;
+    margin: 0;
+    font-family: trebuchet ms, ;
+    font-size: 30px;
+
+   }
+   li ul {
+    position: absolute;
+    display: none;
+    margin-left: -40px;
+    margin-top: 80px;
+       transition: 0.2s ease;
+   }
+   li a {
+    display: block;
+    padding: 17.5px 14px 17.5px;
+    text-decoration: none;
+    color: white;
+    background-color: #de935f;
+
+   }
+
+   li:hover ul {
+    display: block;
+   }
+.Gmail a{position: absolute;
+animation: box2 4s ;
+transition: 0.2s ease;
+}
+.Gmail a:hover{
+border-bottom: 2px solid #a16134;
+border-right: 2px solid #a16134;
+
+}
+
+.blocks li a{
+font-size: 10px;
+transition: 0.2s ease;
+}
+.blocks li a:hover{
+  border-right: 2px solid  #425c71;
+background: #5f819d;
+position: relative;
+
+
+
+}
+/*Stats sp website design*/
+
+.STS a{
+position: absolute;
+left:1085px;
+top:510px;
+background: #de935f;
+width: 45px;
+height: 35px;
+padding: 20px 15px 20px;
+font-size:30px;
+font-family: trebuchet ms;
+color:white;
+text-decoration: none;
+animation: box1 5s ease;
+transition: linear 0.2s ;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.STS a:hover{
+border-right: 2px solid  #a16134;
+border-bottom:  2px solid  #a16134;
+transition: linear 0.2s ;
+top:508px;
+left:1083px;
+width: 43px;
+height: 33px;
+}
+
+
+
+
+
+/*Animation for Button*/
+@keyframes anibutton {
+    1%{ right: 800px;}
+    2%{ right: 700px;}
+    3%{ right: 600px;}
+    4%{ right: 500px;}
+    5%{ right: 400px;}
+    6%{ right: 300px;}
+    7%{ right: 200px;}
+    8%{ right: 100px;}
+    9%{ right: 50px;}
+}
+
+
+
+/*VK Button*/
+
+
+.vk a{
+position: absolute;
+font-size:30px;
+background: #de935f;
+font-family: trebuchet ms;
+color:white;
+padding: 20px 20px 20px;
+top:510px;
+left:655px;
+text-decoration: none;
+animation: box1 5s ease-out;
+width: 35px;
+height: 35px;
+transition: linear 0.2s ;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+}
+.vk a:hover {
+
+border-right: 2px solid  #a16134;
+border-bottom:  2px solid  #a16134;
+transition: linear 0.2s ;
+top:508px;
+left:653px;
+width: 33px;
+height: 33px;
+}
+
+
+
+.SKM a{
+position: absolute;
+left:1190px;
+top:510px;
+background: #de935f;
+width: 55px;
+height: 35px;
+padding: 20px 10px 20px;
+font-size:30px;
+font-family: trebuchet ms;
+color:white;
+text-decoration: none;
+animation: box1 5s ease;
+transition: linear 0.2s ;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.SKM a:hover{
+border-right: 2px solid  #a16134;
+border-bottom:  2px solid  #a16134;
+transition: linear 0.2s ;
+top:508px;
+left:1188px;
+width: 53px;
+height: 33px;
+}
+
+
+/*VK Button -!*/
+
+
+/*line at the middle*/
+.line{
+width: 2px;
+height: 90px;
+background: #5f819d;
+position: absolute;
+top:510px;
+left:960px;
+}
+
+
+/*Google Icon*/
+
+
+
+.Google a{
+position: absolute;
+font-size: 150px;
+font-family: trebuchet ms;
+color:#de935f;
+left:730px;
+top:200px;
+user-select: none;
+padding: 10px 10px -10px;
+
+}
+
+
+/* Button Animation for VK, Youtube...*/
+
+@keyframes box1 {
+1%  {height: 0px;}
+2%  {height: 1px;}
+3%  {height: 10px;}
+4%  {height: 15px;}
+5%  {height: 20px;}
+6%  {height: 25px;}
+7%  {height: 30px;}
+8%  {height: 35px;}
+}
+
+@keyframes box2 {
+1%  {height: 0px;}
+2%  {height: 1px;}
+3%  {height: 10px;}
+4%  {height: 15px;}
+5%  {height: 20px;}
+6%  {height: 25px;}
+7%  {height: 30px;}
+8%  {height: 35px;}
+9%  {height: 40px;}
+}
+
+
+/* Button Animation for VK, Youtube... -!*/
+
+
+/* Kalender */
+.Kalender {
+position: absolute;
+width: 30px;
+height: 3px;
+background: white;
+left:1280px;
+top:485px;
+transition: 0.2s ease;
+}
+
+.Kalender1 {
+position: absolute;
+width: 30px;
+height: 3px;
+background: white;
+left:1280px;
+top:465px;
+transition: 0.2s ease;
+}
+
+.Kalender2 {
+position: absolute;
+width: 30px;
+height: 3px;
+background: white;
+left:1280px;
+top:475px;
+transition: 0.2s ease;
+}
+
+.Kalender:active + .menuK {
+display: blocK;
+
+}
+
+
+
+.menuK{
+width: 500px;
+height: 500px;
+background: white;
+display: none;
+}
+
+
+#div1{
+  display: none;
+  color:red;
+width: 900px;
+height: 800px;
+background: white;
+position: absolute;
+}
+
+.input input{
+background: red;
+position: absolute;
+width: 20px;
+height: 20px;
+
+opacity: 1;
+
+}
+
+
+.blockdisplay{
+position: absolute;
+background: white;
+width: 35px;
+height: 5px;
+left:500px;
+
+}
+
+.txt{
+position: absolute;
+left:50%;
+top:70%;
+font-size:60px;
+font-family: Beon;
+color:white;
+transition: all 0.5 ease;
+
+
+}
